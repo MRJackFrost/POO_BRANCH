@@ -3,7 +3,7 @@
 ## Status do Projeto: ✔️ Concluído
 
 ## Tópicos
-🔹 Descrição do projeto 
+🔹 Descrição do projeto </br>
 Nesse projeto utilizamos o metodo para separar o calculo da area de dois triangulos do codigo principal
 
 🔹 Funcionalidades
