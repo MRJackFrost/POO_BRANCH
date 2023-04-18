@@ -1,25 +1,43 @@
 #include <iostream>
-#include <math.h>
+#include <cmath>
 using namespace std;
 
+class Triangulo{
+    //Criando as classes privadas e publicas que receberam os dados
+    private: double a,b,c;
+    public:
+        Triangulo(double lado1,double lado2,double lado3){
+            a = lado1;
+            b = lado2;
+            c = lado3;
+        }
+        
 //Criando o metodo de calculo da area do triangulo
-double calctri(double a, double b, double c){
+double calctri(){
     double p = (a + b + c)/2;
     return sqrt(p*(p-a)*(p-b)*(p-c));
 }
+        //
+        double getlado1(){return a;}
+        double getlado2(){return b;}
+        double getlado3(){return c;}
 
+};
 int main() {
-    double xa,xb,xc,ya,yb,yc;
+    double a, b, c;
     
     //Pedindo pro usuario inputar os dados dos triangulos
     cout << "Qual as areas do triangulo x?" << endl;
-    cin >> xa >> xb >> xc;
-    cout << "Qual as areas do triangulo y?" << endl;
-    cin >> ya >> yb >> yc;
+    cin >> a >>b >> c;
+    Triangulo X(a,b,c);
     
-    //chamando o metodo com os dados inputados do usuario
-    double areax = calctri(xa,xb,xc);
-    double areay = calctri(ya,yb,yc);
+    cout << "Qual as areas do triangulo y?" << endl;
+    cin >> a >> b >> c;
+    Triangulo Y(a,b,c);
+    
+    //chamando o metodo dentro da classe com os dados inputados do usuario
+    double areax = X.calctri();
+    double areay = Y.calctri();
     
     //mostrando o resultado para o usuario
     cout << "Area do triangulo x:" << areax << endl;
