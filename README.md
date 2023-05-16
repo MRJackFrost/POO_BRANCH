@@ -62,43 +62,28 @@ mostrar a area para o usuario e calcular qual dos dois tem a maior area.
 Ainda sem distribuição
 
 ## Pré-requisitos ⚠️    
-Versão do Android; 
-SDK; 
-Aparelho utilizado para testes.
-- Liste todas as dependencias e libs que o usuário deve ter instalado na máquina antes de rodar a aplicação, para rodar o projeto.
+Um compilador c++;
+Testado em um desktop windows.
+- bibliotecas padrões c++:
+- iostream
+- std
 
 ## Como rodar a aplicação 
-Explicação de como se deve utilizar o projeto.
+só dar run no compilador
 
 ## Testes realizados
-Utilização de imagens e descrição do qeu foi testado.
+teste no programiz foi um sucesso.
 
 ## Banco de Dados 🗂️
-Caso tenha acesso a uma base de dados, deixe a descrição do arquivo (json, csv, xml e etc).
+sem banco de dados;
 
 ## Linguagens, dependencias e libs utilizadas 📚
-![Android Studio](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-
-XML
-...
-Liste as tecnologias utilizadas no projeto que não forem reconhecidas pelo Github
-
-## Resolvendo Problemas 
-Em issues foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos.
-
-## Recursos de inseridos 🧰
-Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementadas na sua aplicação, insira fotos da tela do app.
-
-📝 Tarefa 1
-
-📝 Tarefa 2
-
-📝 Tarefa 3
+C++
 
 ## Desenvolvedores/Contribuintes:
-Liste o time responsável pelo desenvolvimento do projeto
+MRJackFrost - Bruno;
 
 ## Licença
 The MIT License (MIT)
 
-## Copyright ©️ Ano - Titulo do Projeto
+## Copyright MRJackFrost ©️ 2023 - Calculo de Triangulo com métodos
